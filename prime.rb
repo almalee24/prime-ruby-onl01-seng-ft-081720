@@ -1,13 +1,14 @@
 # Add  code here!
 def prime?(num)
   if num < 2 
-    puts false 
+    false 
   else 
     n = 2 
     while n < num
       false if num % n == 0 
       n += 1 
     end
+    true
   end
-  puts true
+  true
 end
