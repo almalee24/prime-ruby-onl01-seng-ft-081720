@@ -9,5 +9,5 @@ def prime?(num)
       n += 1 
     end
   end
-  true
+  puts true
 end
